@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html, body>div {
+  height: 100%;
+}
+
+main {
+  height: calc(100% - 64px - 1.5rem)
+}
+
